@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Compose-Craft</Name>
+  <Repository>composecraft/composecraft</Repository>
+  <Registry>https://hub.docker.com/r/composecraft/composecraft</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/composecraft/composecraft</Project>
+  <Overview/>
+  <Category>Productivity: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/undead-reaper/unraid-templates/blob/master/compose-craft/compose-craft.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1736329230</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="SECRET_KEY" Target="SECRET_KEY" Default="" Mode="" Description="The key used to sign JWT tokens" Type="Variable" Display="always" Required="true" Mask="true">?xml version="1.0"? Container version="2"   NameCompose-Craft/Name   Repositorycomposecraft/composecraft/Repository   Registryhttps://hub.docker.com/r/composecraft/composecraft/Registry   Networkbridge/Network   MyIP/   Shellsh/Shell   Privilegedfalse/Privileged   Support/   Projecthttps://github.com/composecraft/composecraft/Project   Overview/   CategoryProductivity: Tools:/Category   WebUIhttp://[IP]:[PORT:3000]/WebUI   TemplateURL/   Iconhttps://github.com/composecraft/composecraft/blob/main/assets/logo.png/Icon   ExtraParams/   PostArgs/   CPUset/   DateInstalled1736328499/DateInstalled   DonateText/   DonateLink/   Requires/   Config Name="SECRET_KEY" Target="SECRET_KEY" Default="" Mode="" Description="The key used to sign JWT tokens" Type="Variable" Display="always" Required="true" Mask="true"/   Config Name="MONGODB_URI" Target="MONGODB_URI" Default="" Mode="" Description="Used to connect to mongodb" Type="Variable" Display="always" Required="true" Mask="false"/   Config Name="URL" Target="URL" Default="" Mode="" Description="The base url used for some redirect and public link generation" Type="Variable" Display="always" Required="true" Mask="false"/   Config Name="CORE_ONLY" Target="CORE_ONLY" Default="true" Mode="" Description="Disable SaaS hosted features (to allow simple self-host)" Type="Variable" Display="always" Required="false" Mask="false"true/Config   Config Name="DISABLE_TELEMETRY" Target="DISABLE_TELEMETRY" Default="true" Mode="" Description="Disable telemetry" Type="Variable" Display="always" Required="false" Mask="false"true/Config   TailscaleStateDir/ /Container</Config>
+  <Config Name="MONGODB_URI" Target="MONGODB_URI" Default="" Mode="" Description="Used to connect to mongodb" Type="Variable" Display="always" Required="true" Mask="false">MongoDB:27017</Config>
+  <Config Name="URL" Target="URL" Default="" Mode="" Description="The base url used for some redirect and public link generation" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="CORE_ONLY" Target="CORE_ONLY" Default="true" Mode="" Description="Disable SaaS hosted features (to allow simple self-host)" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="DISABLE_TELEMETRY" Target="DISABLE_TELEMETRY" Default="true" Mode="" Description="Disable telemetry" Type="Variable" Display="always" Required="false" Mask="false">true</Config>
+  <Config Name="PORT" Target="3000" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3600</Config>
+  <TailscaleStateDir/>
+</Container>
