@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/composecraft/composecraft</Project>
-  <Overview/>
+  <Overview>Compose craft is a tool to help you manage, edit and share docker compose files with a clean and intuitive GUI.</Overview>
   <Category>Productivity: Tools:</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
