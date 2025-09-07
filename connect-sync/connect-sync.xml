@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>op-connect-sync</Name>
+  <Repository>1password/connect-sync:latest</Repository>
+  <Registry/>
+  <Network>op-connect</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>1Password Connect Sync keeps the information available on the Connect server in sync with 1Password.com.</Overview>
+  <Category>Security:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/undead-reaper/unraid-templates/blob/master/connect-sync/connect-sync.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1757230295</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>https://hub.docker.com/r/1password/connect-api</Requires>
+  <Config Name="Sync Port" Target="8080" Default="8081" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8098</Config>
+  <Config Name="Data Path /data" Target="/home/opuser/.op/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/connect/data/</Config>
+  <Config Name="Credentials Path" Target="/home/opuser/.op/1password-credentials.json" Default="" Mode="ro" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/connect/config/1password-credentials.json</Config>
+  <TailscaleStateDir/>
+</Container>
