@@ -13,7 +13,7 @@
   <Category>Security:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/undead-reaper/unraid-templates/blob/master/connect-api/connect-api.png?raw=true</Icon>
+  <Icon>https://github.com/undead-reaper/unraid-templates/blob/master/op-connect/op-connect.png?raw=true</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
