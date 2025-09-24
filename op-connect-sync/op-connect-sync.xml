@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>op-connect-sync</Name>
   <Repository>1password/connect-sync:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/1password/connect-sync</Registry>
   <Network>op-connect</Network>
   <MyIP/>
   <Shell>sh</Shell>

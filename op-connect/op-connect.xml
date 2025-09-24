@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>op-connect</Name>
   <Repository>1password/connect-api:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/1password/connect-api</Registry>
   <Network>op-connect</Network>
   <MyIP/>
   <Shell>sh</Shell>
