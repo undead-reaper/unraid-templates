@@ -3,12 +3,12 @@
   <Name>op-connect</Name>
   <Repository>1password/connect-api:latest</Repository>
   <Registry>https://hub.docker.com/r/1password/connect-api</Registry>
-  <Network>op-connect</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/1Password/connect</Project>
   <Overview>The 1Password Connect server serves the Connect server REST API.</Overview>
   <Category>Security:</Category>
   <WebUI/>

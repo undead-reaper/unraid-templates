@@ -3,12 +3,12 @@
   <Name>op-connect-sync</Name>
   <Repository>1password/connect-sync:latest</Repository>
   <Registry>https://hub.docker.com/r/1password/connect-sync</Registry>
-  <Network>op-connect</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/1Password/connect</Project>
   <Overview>1Password Connect Sync keeps the information available on the Connect server in sync with 1Password.com.</Overview>
   <Category>Security:</Category>
   <WebUI/>
