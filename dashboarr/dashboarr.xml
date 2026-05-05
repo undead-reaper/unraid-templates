@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>dashboarr</Name>
+  <Repository>ghcr.io/renzobeux/dashboarr-backend:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/RenzoBeux/dashboarr</Project>
+  <ReadMe/>
+  <Overview>Dashboarr is a native mobile app (Android &amp;amp; iOS) that connects directly to your self-hosted *arr stack and media services. No backend server required &#x2014; the app talks to each service's REST API using your API keys.</Overview>
+  <Category>Productivity: Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/undead-reaper/unraid-templates/blob/master/compose-craft/dashboarr.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1777996871</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="PORT" Target="4000" Default="4000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4000</Config>
+  <Config Name="Path to /data" Target="/data" Default="/mnt/user/appdata/dashboarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/dashboarr</Config>
+  <TailscaleStateDir/>
+</Container>
