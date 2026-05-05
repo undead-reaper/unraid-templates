@@ -3,7 +3,7 @@
   <Name>dashboarr</Name>
   <Repository>ghcr.io/renzobeux/dashboarr-backend:latest</Repository>
   <Registry/>
-  <Network>bridge</Network>
+  <Network>valhalla</Network>
   <MyIP/>
   <MyMAC/>
   <Shell>sh</Shell>
@@ -19,11 +19,17 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1777996871</DateInstalled>
+  <DateInstalled>1777997387</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Requires/>
   <Config Name="PORT" Target="4000" Default="4000" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">4000</Config>
   <Config Name="Path to /data" Target="/data" Default="/mnt/user/appdata/dashboarr" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/dashboarr</Config>
+  <Config Name="NODE_ENV" Target="NODE_ENV" Default="production" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">production</Config>
+  <Config Name="LOG_LEVEL" Target="LOG_LEVEL" Default="info" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">info</Config>
+  <Config Name="PUBLIC_URL" Target="PUBLIC_URL" Default="" Mode="" Description="Public URL your phone will use to reach the backend. When set the pairing QR encodes both the URL and token so the app can pair in a single scan. When omitted the QR only contains the token and you enter the URL manually in the app." Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="OFFLINE_THRESHOLD" Target="OFFLINE_THRESHOLD" Default="10" Mode="" Description="Consecutive failed health checks (30s each) before " Type="Variable" Display="advanced" Required="false" Mask="false">10</Config>
+  <Config Name="BACKEND_USE_REMOTE" Target="BACKEND_USE_REMOTE" Default="false" Mode="" Description="Route service polls via remoteUrl instead of localUrl. The app's own useRemote flag is always ignored server-side. Default false (backend on LAN). Flip to true only if the backend lives off-LAN." Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
+  <Config Name="TRUST_PROXY" Target="TRUST_PROXY" Default="false" Mode="" Description="Enable if behind a reverse proxy (Caddy, Nginx, Traefik) so rate limiting uses the real client IP from X-Forwarded-For." Type="Variable" Display="always" Required="false" Mask="false">true</Config>
   <TailscaleStateDir/>
 </Container>
