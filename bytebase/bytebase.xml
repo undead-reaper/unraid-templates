@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>bytebase</Name>
+  <Repository>bytebase/bytebase:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <ReadMe/>
+  <Overview>Bytebase is the DevSecOps platform that sits between your team and your databases. Built by the team that previously created Google&#x2019;s Cloud database and API infrastructure, it acts as a centralized control plane to deliver two critical outcomes for engineering leaders: better security and compliance, and improved productivity and reliability.</Overview>
+  <Category>Productivity: Security: Tools:</Category>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://github.com/undead-reaper/unraid-templates/blob/master/bytebase/bytebase.png?raw=true</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1780936452</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Data Path /data" Target="/var/opt/bytebase" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false" />
+  <Config Name="PORT" Target="8080" Default="8080" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false" />
+  <TailscaleStateDir/>
+</Container>
